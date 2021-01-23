@@ -1,34 +1,68 @@
+*{
+  
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.style-jumbo {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1px;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  transition: all 1s;
+  opacity: 0.9;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-header1 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
   color: white;
+  font-weight: 800;
+}
+.flexing-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.button-styling:hover {
+  opacity: 0.65;
 }
 
-.App-link {
-  color: #61dafb;
+.font-styling {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 800;
+  margin-top: 10px;
+  transition: 1s ease-in;
 }
+  .link1:hover {
+    opacity: 0.65;
+  }
+  .link2 {
+    margin: 7.5px;
+  }
+  .link2:hover {
+    opacity: 0.65;
+  }
+  .first-span {
+    font-size: 50px;
+    font-family: fantasy;
+  }
+  .logo-style {
+    color:white;
+    font-weight: 900;
+  }
 
-@keyframes App-logo-spin {
+
+
+@keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -36,3 +70,4 @@
     transform: rotate(360deg);
   }
 }
+
